@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tilt+Neon&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.filter-img{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(103%) contrast(103%);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.h-119{
+  height: 1190px;
+}
+.bg-curtain{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.bg-curtain a:hover, .bg-curtain a:hover .filter-img{
+  color: black;
+  text-decoration: underline;
+  filter: brightness(0%);
+}
+.container{
+  max-width: 1213px;
+  margin: auto;
+  padding: 10px;
+}
+.bgblack:focus{
+  outline: none;
+}
+.swiper-wrapper{
+  overflow-x: ;
 }
