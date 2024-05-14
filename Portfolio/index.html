@@ -5,16 +5,554 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <header>
         <div class="title">
-            <h1>My Portfolio</h1>
+            <h1 class="uppercase text-center">My Portfolio</h1>
         </div>
-    </div>
+        <div class="avatar text-center">
+            <img src="./assets/image/boy.png">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="saying text-center">
+                <h4>
+                    <i>"It does not matter how slowly you go as long as you do not stop."</i>
+                </h4>
+            </div>
+            <div>
+                <h1 class="text-center font-50">Hi <i class="fa-regular fa-hand-peace"></i> Welcome to my Portfolio</h1>
+            </div>
+            <div>
+                <div class="information">
+                    <strong class="uppercase">Personal</strong>
+                    <span class="weight-200">information</span>
+                </div>
+                <div>
+                    <p>
+                        My name is : <span>Le Hoang Nam</span>
+                    </p>
+                    <p>
+                        Day of birth : <span>03-09-2001</span>
+                    </p>
+                    <p>
+                        Address : <span>787/1 Truong Chinh, Tay Thanh, Tan Phu, Ho Chi Minh City</span>
+                    </p>
+                    <div>
+                        <h4>A little description about me:</h4>
+                        <p>
+                            I'm a positive and a little hard working person. I love working in a dynamic and positive environment. I like to learn something new about IT, daily life, 
+                            game. And I like listening to music the most. I can listen to all kind of music as long as it's good. Sometimes I read books, 
+                            my favorite type of book is horror. I like what scary. And I spent a lot of time searching new framework for my job and the first thing I tried was
+                            Reactjs. It's seem to be hard for me but now I can create a simple React project.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Education</h4>
+                        <p>
+                            I was a student of <a href="https://huit.edu.vn/" target="_blank"><u>HUIT University</u></a> from 2019 and I will get my degree at the end of 2024
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="information">
+                <strong class="uppercase">Main</strong>
+                <span class="weight-200">information</span>
+            </div>
+            <div>
+                <div class="flex-two item-center my-70 box-content">
+                    <div class="w-50 text-center content-left-row">
+                        <p class="font-50 weight-200">
+                            I'm <strong class="uppercase">FrontEnd</strong> developer
+                        </p>
+                        <div class="row-img">
+                            <img class="shadow-img" src="./assets/image/Frontend.jpg">
+                        </div>
+                    </div>
+                    <div class="w-50 text-center content-right-row">
+                        <div class="row-img">
+                            <img class="shadow-img" src="./assets/image/website-dev.jpg">
+                        </div>
+                        <p class="font-50 weight-200">
+                            And I love creating a beautiful <strong class="uppercase">website</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-70 flex-two content-center">
+                <div class="experience">
+                    <p class="text-end font-50 weight-200">
+                        I had <br> <strong>1 year</strong> <br>experience <br>in this position
+                    </p>
+                </div>
+                <div class="experience-detail flex-col content-between">
+                    <h4>Detail</h4>
+                    <p>
+                        I've joined DFM Engineering as an intern from 2023. After finished my internship, I was asked to stay and work as an employee.
+                        When I work in here my colleague very friendly and my team leader has always been supportive and taught what I didn't know.
+                        Here I had a great experience. 
+                    </p>
+                    <a href="https://maps.app.goo.gl/RchwoAfk8yTxbhYAA" target="_blank">
+                        <button class="btn">Company's location !</button>
+                    </a>
+                </div>
+            </div>
+            <div class="text-center">
+                <h2 class="font-50 uppercase">My projects</h2>
+            </div>
+            <div>
+                <p>
+                    I didn't have any personal project except this Portfolio. But I have created quite a few company's projects. I don't know this can be accept or not but
+                    I gonna show some projects:
+                </p>
+                <div class="box-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="w-20">Project's Name</th>
+                                <th>Website information</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">
+                                    <a href="https://albasoten.com/" target="_blank">
+                                        Abasoten
+                                    </a>
+                                </td>
+                                <td>
+                                    This is a website about French folk & classical music. 
+                                </td>
+                                <td>
+                                    This is my first project. My first project was not perfect but I'm really happy because finally I can create a complete project that I always
+                                    want to do. This project was created with basic < html >, < css > and Jquery.  
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">
+                                    <a href="https://dfm-iot.com/" target="_blank">
+                                        DFM-IOT
+                                    </a>
+                                </td>
+                                <td>
+                                    This is company's website using to introduce all company's electrical equipments.
+                                </td>
+                                <td>
+                                    This is my second project. At first, it was made by Wordpress but had some troubles about view website so team leader decided to turn it into 
+                                    a basic code.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">
+                                    <a href="https://dfm-europe.com/" target="_blank">
+                                        DFM Europe
+                                    </a>
+                                </td>
+                                <td>
+                                    This is main company's website at Europe.
+                                </td>
+                                <td>
+                                    In this project I didn't do much. All I did was fix a few thing and update a content. 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">
+                                    <a href="https://dfm-infotech.com/" target="_blank">
+                                        DFM Infotech
+                                    </a>
+                                </td>
+                                <td>
+                                    I don't know what this website does but I think it demonstrates the company's strengths.
+                                </td>
+                                <td>
+                                    This website is my third project and what I did was like DFM-IOT.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>
+                    Here is some of my projects that are in use, there are a few that have been completed but it have not changed yet.
+                </p>
+            </div>
+            <div class="text-center">
+                <h2 class="font-50 uppercase">My skill</h2>
+            </div>
+            <div>
+                <h4>
+                    Main skill :
+                </h4>
+                <div class="level grid-area content-between">
+                    <div class="">
+                        <h3 class="uppercase">html</h3>
+                        <div class="tooltip-left">
+                            <p>
+                                I'm not sure I'm master this or not but I'm very steady that I can make a perfect html template.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="uppercase">css</h3>
+                        <div class="tooltip-left">
+                            <p>
+                                The problem I have in this is element class name. Named an element is supper hard, it make my code too long.
+                                And more that I can handle responsive on moble, tablet.  
+                            </p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="uppercase">js</h3>
+                        <div class="tooltip-left">
+                            <p>
+                                I'm not strong at this. I usually uses Jquery and all I can do is just a simple things.  
+                            </p>
+                            <a href="#example">Click here to see a simple things !</a>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="uppercase">React</h3>
+                        <div class="tooltip-left">
+                            <p>
+                                This is new for me and still in process. I can make a simple template but I don't is it correct or not. 
+                            </p>
+                            <a href="">Click here to see some React's project !</a>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="uppercase">Tailwindcss</h3>
+                        <div class="tooltip-left">
+                            <p>
+                                This is a perfect css library for creating a template using React. I'm in love with this more than Boostrap. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="uppercase">Boostrap</h3>
+                        <div class="tooltip-left">
+                            <p>
+                                This is first css library I used. It quite easy to understand so it still a first recomend library. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="uppercase">Figma</h3>
+                        <div class="tooltip-left">
+                            <p>
+                                I can cut a design from figma to create HTML.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="uppercase">Git</h3>
+                        <div class="tooltip-left">
+                            <p>
+                                This is importance thing must have. I can do simple git commends. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <h2 class="font-50 uppercase">Language</h2>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Japanese</th>
+                            <th>English</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="w-20 text-center">
+                                <h5>Level</h5>
+                            </td>
+                            <td>
+                                Under N3, I can read and understand Hiragana and Katakana, Kanji still learning. I can make a basic conversation. 
+                            </td>
+                            <td>
+                                I have a steady knowledge of English. I can make a conversation with abundant vocabulary.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="w-20 text-center">
+                                <h5>Certificate</h5>
+                            </td>
+                            <td>
+                                N5 certificate
+                            </td>
+                            <td>
+                                Toeic 750
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="example" class="text-center">
+                <h2 class="font-50 uppercase">js example</h2>
+            </div>
+            <div>
+                <h3>Alert</h3>
+                <div class="flex-two">
+                    <div class="w-50">
+                        <button id="alert1" class="btn">Button 1</button>
+                        <button id="alert2" class="btn">Button 2</button>
+                        <button id="alert3" class="btn">Button 3</button>
+                        <div class="this-is-popup">
+                            <div class="flex-two item-center content-center">
+                                <p>Here's my love</p> 
+                                <img src="./assets/image/in-love.png">
+                            </div>
+                            <video src="./assets/image/ILU.mp4" loop autoplay muted></video>
+                        </div>
+                    </div>
+                    <div class="js-content w-50 relative">
+                        <div class="text-end copy-container">
+                            <button class="copy-btn btn text-center">
+                                <img src="./assets/image/coppy.png">
+                                Copy
+                            </button>
+                        </div>                        
+                        <pre class="code-container relative">
+                            <code>
+                                $(document).ready(function(){
+                                    var alert1Clicked = false;
+                                    var alert2Clicked = false;
+                                    var alert3Clicked = false;
+                                    $('#alert1').on('click', function() {
+                                        alert1Clicked = true;
+                                        checkAllAlertsClicked();
+                                        alert('Please ! Click the button 2')
+                                    });
+                                    $('#alert2').on('click', function() {
+                                        alert2Clicked = true;
+                                        checkAllAlertsClicked();
+                                        alert('Please ! Click the button 3')
+                                    });
+                                    $('#alert3').on('click', function() {
+                                        alert3Clicked = true;
+                                        checkAllAlertsClicked();
+                                        alert('Thank you for trying all my bullshit dev :V')
+                                    });
+                                    function checkAllAlertsClicked() {
+                                        if (alert1Clicked && alert2Clicked && alert3Clicked) {
+                                            $('.this-is-popup').fadeIn();
+                                        }
+                                    }
+                                })
+                            </code>
+                        </pre>
+                        <div class="copy-alert">Copied !</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Upload Image</h3>
+                <div class="flex-two">
+                    <div class="upload-img flex-col item-center text-center w-50 row-20">
+                        <div class="img-area">
+                            <img src="./assets/image/uploadimg.png" alt="Upload Image Preview" id="uploaded-image">
+                        </div>
+                        <span>Drag and drop image to change background<br>Or</span>
+                        <button id="upload-button">Upload Image</button>
+                        <input type="file" id="file-input" style="display: none;">
+                    </div>
+                    <div class="js-content w-50 relative">
+                        <div class="text-end copy-container">
+                            <button class="copy-btn btn text-center">
+                                <img src="./assets/image/coppy.png">
+                                Copy
+                            </button>
+                        </div>                        
+                        <pre class="code-container relative">
+                            <code>
+                                $(document).ready(function() {
+                                    $('#upload-button').click(function() {
+                                        $('#file-input').click();
+                                    });
+                                    $('#file-input').change(function(e) {
+                                        var file = e.target.files[0];
+                                        if (file) {
+                                            var reader = new FileReader();
+                                            reader.onload = function(e) {
+                                                $('#uploaded-image').attr('src', e.target.result);
+                                            };
+                                            reader.readAsDataURL(file);
+                                        }
+                                    });
+                                    $('.upload-img').on('dragover', function(e) {
+                                        e.preventDefault();
+                                        $(this).addClass('dragover');
+                                    }).on('dragleave drop', function(e) {
+                                        e.preventDefault();
+                                        $(this).removeClass('dragover');
+                                    }).on('drop', function(e) {
+                                        e.preventDefault();
+                                        var file = e.originalEvent.dataTransfer.files[0];
+                                        if (file) {
+                                            var reader = new FileReader();
+                                            reader.onload = function(e) {
+                                                $('#uploaded-image').attr('src', e.target.result);
+                                            };
+                                            reader.readAsDataURL(file);
+                                        }
+                                    });
+                                });
+                            </code>
+                        </pre>
+                        <div class="copy-alert">Copied !</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Increase/Decrease number</h3>
+                <div class="flex-two">
+                    <div class="w-50">
+                        <div class="flex-two content-center">
+                            <input type="text" class="number-input text-center">
+                            <div class="number flex-col">
+                                <button class="increase">
+                                    <img src="./assets/image/up.png">
+                                </button>
+                                <button class="decrease">
+                                    <img src="./assets/image/downtrend.png">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="js-content w-50 relative">
+                        <div class="text-end copy-container">
+                            <button class="copy-btn btn text-center">
+                                <img src="./assets/image/coppy.png">
+                                Copy
+                            </button>
+                        </div>                        
+                        <pre class="code-container relative">
+                            <code>
+                                $(document).ready(function() {
+                                    $('.increase').on('click', function() {
+                                        var currentValue = parseInt($('.number-input').val()) || 0;
+                                        currentValue++;
+                                        $('.number-input').val(currentValue);
+                                    });
+                                    $('.decrease').on('click', function() {
+                                        var currentValue = parseInt($('.number-input').val()) || 0;
+                                        currentValue--;
+                                        $('.number-input').val(currentValue);
+                                    });
+                                });
+                            </code>
+                        </pre>
+                        <div class="copy-alert">Copied !</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Running button</h3>
+                <div class="flex-two">
+                    <div class="w-50">
+                        <div class="mt-20">
+                            <div class="progress" onclick="move()">
+                                <div class="back process-status">Running Button</div>
+                                <div class="front process-status">Running Button</div>
+                            </div>
+                        </div>
+                        <div class="message-stage">
+                            <div class="form-group box-filed">
+                                <p>Thank you for waiting my bullshit dev again :) ! I really appreciate your concern for me !</p>
+                                <img src="./assets/image/heart.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="js-content w-50 relative">
+                        <div class="text-end copy-container">
+                            <button class="copy-btn btn text-center">
+                                <img src="./assets/image/coppy.png">
+                                Copy
+                            </button>
+                        </div>                        
+                        <pre class="code-container relative">
+                            <code>
+                                function move(e) {
+                                    $('.front').css('-webkit-clip-path', 'inset(0 0 0 0)')
+                                    var width = 0;
+                                    var id = setInterval(frame, 100);
+                                    function frame() {
+                                        if (width > 100) {
+                                            $('.process-status').text('Love you !');
+                                            $('.message-stage').show();
+                                            clearInterval(id);
+                                        } else {
+                                            $('.process-status').text(width + '/100 Please wait');
+                                            $('.front').css('-webkit-clip-path', 'inset(0 0 0 '+width+'%)')
+                                            $('.message-stage').hide();
+                                            width++;
+                                        }
+                                    }
+                                }
+                                $('.select-service select').on('change', function () {
+                                    $('.tabs-type').hide();
+                                    let id = $(this).val();
+                                    $('#' + id).show();
+                                })
+                                $('#file').on('change', function (event) {
+                                    var files = event.target.files;
+                                    console.log('changed')
+                                    $('.file-infor').show();
+                                    $('.name-file').text(files[0].name);
+                                })
+                                function loadContentCheckbox() {
+                                    $('.tabs-type').hide();
+                                    let id = $('.select-service select').val();
+                                    $('#' + id).show();
+                                }
+                                loadContentCheckbox()
+                            </code>
+                        </pre>
+                        <div class="copy-alert">Copied !</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 <script src="./assets/js/main.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.copy-btn').click(function() {
+            var codeContainer = $(this).closest('.js-content').find('.code-container');
+            var codeText = codeContainer.find('code').text().trim();
+            copyTextToClipboard(codeText);
+            var copyAlert = $(this).closest('.js-content').find('.copy-alert');
+            copyAlert.fadeIn().delay(500).fadeOut();
+        });
+        function copyTextToClipboard(text) {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text)
+                    .then(function() {
+                        console.log('Text copied to clipboard successfully!');
+                    })
+                    .catch(function(error) {
+                        console.error('Unable to copy text to clipboard:', error);
+                    });
+            } else {
+                var tempInput = $('<textarea>');
+                $('body').append(tempInput);
+                tempInput.val(text).select();
+                document.execCommand('copy');
+                tempInput.remove();
+            }
+        }
+    });
+    
+</script>
 </html>
